@@ -18,7 +18,7 @@
 ### 内存性能分析
 可以通过free, vmstat输出的性能指标，确认内存瓶颈，分析内存的使用，分配，泄露以及缓存
 
-<img src="https://github.com/lys861205/server_profile/blob/master/memory_analysis.png" width="500" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/memory_analysis.png" width="400" height="600">
 
 内存性能指标,也来源于/proc文件系统(/proc/meminfo, /proc/slabinfo等）
 
@@ -26,14 +26,14 @@
 可以通过iostat 发现iO存在的性能瓶颈,IO使用率过高，响应时间过长或者等待队列长度突然增大等，
 通过pidstat, vmstat等确认具体的I/O来源
 
-<img src="https://github.com/lys861205/server_profile/blob/master/IO_analysis.png" width="500" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/IO_analysis.png" width="400" height="600">
 
 磁盘和文件系统的性能指标， 也来源于/proc 和 /sys 文件（/proc/diskstats, /sys/block/sda/stat等)
 
 ### 网络性能分析
 网络性能分析要从linux的网络协议栈原理切入，通常包括应用层，套接字接口，传输层，网络层以及链路层
 
-<img src="https://github.com/lys861205/server_profile/blob/master/net_analysis.png" width="500" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/net_analysis.png" width="400" height="600">
 
 分析网络性能，要从几个协议层入手，通过使用率，饱和度，错误数性能指标，观察是否有问题
 * 链路层 可以从网络接口的吞吐量、丢包、错误以及软中断和网络功能卸载等角度分析
