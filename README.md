@@ -105,36 +105,48 @@ CPU 性能优化的核心，在于排除所有不必要的工作、充分利用 
 # linux性能工具
 Brendan Gregg整理的性能工具图谱
 
-<img src="https://github.com/lys861205/server_profile/blob/master/cpu_index.png" width="800" height="1000">
+<img src="https://github.com/lys861205/server_profile/blob/master/linux_observability_tools.png" width="800" height="1000">
 
 ## CPU性能工具
 cpu性能指标
 
-<img src="https://github.com/lys861205/server_profile/blob/master/cpu_index.png" width="400" height="600">
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_index.png" width="400" height="800">
 
 cpu性能工具
 
-<img src="https://github.com/lys861205/server_profile/blob/master/cpu_tool.png" width="400" height="600">
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_tool.png" width="400" height="800">
 
 ## 内存性能工具
 内存性能指标
 
+<img src="https://github.com/lys861205/server_profile/blob/master/mem_index.png" width="400" height="800">
+
 内存性能工具
+
+<img src="https://github.com/lys861205/server_profile/blob/master/mem_tool.png" width="400" height="800">
 
 ## 磁盘I/O性能工具
 I/O性能指标
 
+<img src="https://github.com/lys861205/server_profile/blob/master/io_index.png" width="400" height="800">
+
 I/O性能工具
+
+<img src="https://github.com/lys861205/server_profile/blob/master/io_tool.png" width="400" height="800">
 
 ## 网络性能工具
 网络性能指标
 
+<img src="https://github.com/lys861205/server_profile/blob/master/net_index.png" width="400" height="800">
+
 网络性能工具
+
+<img src="https://github.com/lys861205/server_profile/blob/master/net_tool.png" width="400" height="800">
 
 
 ## 基准测试工具
 
-
+<img src="https://github.com/lys861205/server_profile/blob/master/linux_benchmarking_tools.png" width="800" height="1000">
 
 
 
