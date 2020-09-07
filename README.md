@@ -110,7 +110,11 @@ Brendan Gregg整理的性能工具图谱
 ## CPU性能工具
 cpu性能指标
 
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_index.png" width="400" height="600">
+
 cpu性能工具
+
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_tool.png" width="400" height="600">
 
 ## 内存性能工具
 内存性能指标
