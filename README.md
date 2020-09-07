@@ -10,7 +10,7 @@
 ### CPU性能分析
 利用top，vmstat， pidstat， mpstat， strace， perf常用工具进行分析
 
-<img src="https://github.com/lys861205/server_profile/blob/master/cpu_analysis.png" width="500" heigth="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_analysis.png" width="500" height="800">
 
 工具top，pidstat，vmstat工具的CPU性能指标，都源自/proc文件系统（/proc/loadavg, /proc/stat, /proc/softirqs）
 可以使用strace，查看进程的系统调用，使用perf工具，找出进程的热点函数，
@@ -18,7 +18,7 @@
 ### 内存性能分析
 可以通过free, vmstat输出的性能指标，确认内存瓶颈，分析内存的使用，分配，泄露以及缓存
 
-<img src="https://github.com/lys861205/server_profile/blob/master/memory_analysis.png" width="500" heigth="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/memory_analysis.png" width="500" height="800">
 
 内存性能指标,也来源于/proc文件系统(/proc/meminfo, /proc/slabinfo等）
 
@@ -26,14 +26,14 @@
 可以通过iostat 发现iO存在的性能瓶颈,IO使用率过高，响应时间过长或者等待队列长度突然增大等，
 通过pidstat, vmstat等确认具体的I/O来源
 
-<img src="https://github.com/lys861205/server_profile/blob/master/IO_analysis.png" width="500" heigth="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/IO_analysis.png" width="500" height="800">
 
 磁盘和文件系统的性能指标， 也来源于/proc 和 /sys 文件（/proc/diskstats, /sys/block/sda/stat等)
 
 ### 网络性能分析
 网络性能分析要从linux的网络协议栈原理切入，通常包括应用层，套接字接口，传输层，网络层以及链路层
 
-<img src="https://github.com/lys861205/server_profile/blob/master/net_analysis.png" width="500" heigth="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/net_analysis.png" width="500" height="800">
 
 分析网络性能，要从几个协议层入手，通过使用率，饱和度，错误数性能指标，观察是否有问题
 * 链路层 可以从网络接口的吞吐量、丢包、错误以及软中断和网络功能卸载等角度分析
@@ -53,6 +53,7 @@
 * 用strace， 观察系统的调用
 * 使用perf和火焰图，分析热点函数
 
+----
 ----
 # 性能优化一般步骤
 ## 系统优化
@@ -97,6 +98,42 @@ CPU 性能优化的核心，在于排除所有不必要的工作、充分利用 
 * 第三，从内存管理角度来说，使用大页，内存池等方法，可以预先分配内存，减少内存的动态分配
 * 第四，从网络角度来说，使用IO多路复用，连接池，长链接代替短链接
 * 第五，从工程角度，使用异步处理，多线程，充分利用每个CPU的处理能力
+
+----
+----
+
+# linux性能工具
+Brendan Gregg整理的性能工具图谱
+
+<img src="" width="800" height="1000">
+
+## CPU性能工具
+cpu性能指标
+
+cpu性能工具
+
+## 内存性能工具
+内存性能指标
+
+内存性能工具
+
+## 磁盘I/O性能工具
+I/O性能指标
+
+I/O性能工具
+
+## 网络性能工具
+网络性能指标
+
+网络性能工具
+
+
+## 基准测试工具
+
+
+
+
+
 
 
 
