@@ -105,7 +105,7 @@ CPU 性能优化的核心，在于排除所有不必要的工作、充分利用 
 # linux性能工具
 Brendan Gregg整理的性能工具图谱
 
-<img src="" width="800" height="1000">
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_index.png" width="800" height="1000">
 
 ## CPU性能工具
 cpu性能指标
