@@ -119,29 +119,29 @@ cpu性能工具
 ## 内存性能工具
 内存性能指标
 
-<img src="https://github.com/lys861205/server_profile/blob/master/mem_index.png" width="400" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/mem_index.png" width="600" height="500">
 
 内存性能工具
 
-<img src="https://github.com/lys861205/server_profile/blob/master/mem_tool.png" width="400" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/mem_tool.png" width="500" height="600">
 
 ## 磁盘I/O性能工具
 I/O性能指标
 
-<img src="https://github.com/lys861205/server_profile/blob/master/io_index.png" width="400" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/io_index.png" width="600" height="500">
 
 I/O性能工具
 
-<img src="https://github.com/lys861205/server_profile/blob/master/io_tool.png" width="400" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/io_tool.png" width="500" height="600">
 
 ## 网络性能工具
 网络性能指标
 
-<img src="https://github.com/lys861205/server_profile/blob/master/net_index.png" width="400" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/net_index.png" width="600" height="500">
 
 网络性能工具
 
-<img src="https://github.com/lys861205/server_profile/blob/master/net_tool.png" width="400" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/net_tool.png" width="500" height="600">
 
 
 ## 基准测试工具
