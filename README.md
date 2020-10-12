@@ -10,7 +10,7 @@
 ### CPU性能分析
 利用top，vmstat， pidstat， mpstat， strace， perf常用工具进行分析
 
-<img src="https://github.com/lys861205/server_profile/blob/master/cpu_analysis.png" width="500" height="800">
+<img src="https://github.com/lys861205/server_profile/blob/master/cpu_analysis.png" width="600" height="800">
 
 工具top，pidstat，vmstat工具的CPU性能指标，都源自/proc文件系统（/proc/loadavg, /proc/stat, /proc/softirqs）
 可以使用strace，查看进程的系统调用，使用perf工具，找出进程的热点函数，
