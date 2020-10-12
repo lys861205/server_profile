@@ -18,7 +18,7 @@
 ### 内存性能分析
 可以通过free, vmstat输出的性能指标，确认内存瓶颈，分析内存的使用，分配，泄露以及缓存
 
-<img src="https://github.com/lys861205/server_profile/blob/master/memory_analysis.png" width="600" height="400">
+<img src="https://github.com/lys861205/server_profile/blob/master/memory_analysis.png" width="600" height="600">
 
 内存性能指标,也来源于/proc文件系统(/proc/meminfo, /proc/slabinfo等）
 
